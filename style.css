@@ -1,0 +1,86 @@
+/* Umumiy sahifa foni */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Jadval markazda va shaffof fon */
+table {
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+/* Fieldset dizayni */
+fieldset {
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Legend sarlavha */
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+/* Inputlar */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Radio tugmalar */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Tugmalar */
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Yuborish tugmasi */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Bekor qilish tugmasi */
+button[type="reset"] {
+    background-color: #f44336;
+    color: white;
+    margin-left: 10px;
+}
+
+/* Hover effekt */
+button:hover {
+    opacity: 0.85;
+}
+
+/* Natija matni */
+#natija {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
